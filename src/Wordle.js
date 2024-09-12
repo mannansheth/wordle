@@ -5,10 +5,6 @@ import { letters, words } from './data/letters';
 import Keyboard from './Keyboard';
 
 
-
-
-
-
 const Wordle = () => {
   const [guesses, setGuesses] = useState(new Array(6).fill("     "));
   const [gameOver, setGameOver] = useState(false)
