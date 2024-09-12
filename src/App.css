@@ -29,7 +29,6 @@
   font-size: 60px;
   -webkit-text-stroke:1px rgb(133, 28, 28);
   background: -webkit-linear-gradient(#d1d1d1, #9f5e22);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding:37px 0 0 0;
 }
