@@ -1,9 +1,10 @@
 .App {
   text-align: center;
   background-image: linear-gradient(rgb(26, 26, 26), rgb(123, 4, 4), rgb(0, 0, 0));
-  min-height:100vh;
+  min-height:100vw;
   color:rgb(228, 228, 228);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:-2%;
 }
 
 .App-logo {
@@ -11,11 +12,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   font-weight: 800;
